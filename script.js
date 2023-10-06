@@ -92,3 +92,20 @@ btnNew.addEventListener("click", () => {
 btnWho.addEventListener("click", () => {
   sectionModal.classList.remove("hidden-modal");
 });
+
+const btnClose = document.querySelector(".btn--close");
+const modal = document.querySelector(".modal");
+
+function HideModal() {
+  modal.classList.add("hidden-modal");
+}
+
+btnClose.addEventListener("click", () => {
+  HideModal();
+});
+
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape") {
+    HideModal();
+  }
+});

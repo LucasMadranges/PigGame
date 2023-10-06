@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="style/style.css" />
     <link rel="stylesheet" href="style/general.css" />
+    <link rel="stylesheet" href="style/media.css" />
     <title>Pig Game</title>
   </head>
   <body>
@@ -37,7 +38,61 @@
     <div class="modal hidden-modal">
       <div class="modal-container">
         <h1>COMMENT JOUER AU JEU ?</h1>
+        <p>Les règles du jeu :</p>
+        <p>
+          Le premier joueur à arriver à <strong>100 points</strong> gagne la
+          partie.
+        </p>
+        <p>
+          Une partie commence lorsque vous cliquez sur le bouton
+          <strong>Lancer le dé</strong>. C'est le <strong>Joueur 1</strong> qui
+          commence la partie.
+        </p>
+        <p>
+          Le joueur qui joue peut lancer autant de fois qu'il veut le dé. Les
+          points obtenus par le score du dé s'ajouteront à son
+          <strong>Score Actuel</strong>.
+        </p>
+        <p>
+          Lorsque le joueur qui joue à obtenu suffisant de points, il appuiera
+          sur <strong>Garder le score</strong> pour l'ajouter à son
+          <strong>Score Global</strong>. Dans ce cas, ça sera au joueur suivant
+          de jouer.
+        </p>
+        <p>
+          <strong class="strong-red">Mais attention</strong>, si le joueur qui
+          joue obtient au dé le score de <strong>1</strong>, il perdra alors
+          <strong>la totalité de ses points actuels</strong> et ça sera au
+          joueur suivant de jouer.
+        </p>
+        <p>
+          <strong
+            >Que le meilleur joueur gagne. A vos marque, dé, partez.</strong
+          >
+        </p>
+        <p>
+          <strong class="strong-little">
+            (Pour fermer cette fenêtre, cliquez sur la croix en haut à droite de
+            votre écran ou appuyer sur votre touche "Esc")
+          </strong>
+        </p>
       </div>
+      <button class="btn--close">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="w-6 h-6"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M6 18L18 6M6 6l12 12"
+          />
+        </svg>
+      </button>
     </div>
     <script src="script.js"></script>
   </body>

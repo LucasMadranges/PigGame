@@ -1,0 +1,61 @@
+@media (max-width: 1500px) {
+  main {
+    width: 100rem;
+  }
+
+  .player {
+    padding: 6rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  html {
+    font-size: 50%;
+  }
+
+  main {
+    width: 90rem;
+  }
+}
+
+@media (max-width: 825px) {
+  .player {
+    padding: 4rem;
+  }
+
+  .container_btn {
+    width: 35rem;
+  }
+
+  .modal .modal-container {
+    width: 75%;
+  }
+}
+
+@media (max-width: 680px) {
+  main {
+    flex-direction: column;
+    height: fit-content;
+  }
+
+  .container_btn {
+    width: 100%;
+    flex-direction: row;
+  }
+
+  .player {
+    padding: 2rem;
+  }
+
+  .btn {
+    display: flex;
+    flex-direction: column;
+    padding: 0.4rem 1.2rem;
+    margin: 0 8px;
+  }
+
+  .dice {
+    height: 8rem;
+    width: 8rem;
+  }
+}
