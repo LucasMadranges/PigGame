@@ -2,8 +2,6 @@
 
 const scorePlayer1El = document.querySelector("#score--0");
 const scorePlayer2El = document.querySelector("#score--1");
-const currentScorePlayer1El = document.querySelector("#current--0");
-const currentScorePlayer2El = document.querySelector("#current--1");
 
 const sectionPlayer1 = document.querySelector(".player--0");
 const sectionPlayer2 = document.querySelector(".player--1");
